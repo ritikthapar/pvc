@@ -1,5 +1,6 @@
 var express = require('express');
 
+let port=process.env.PORT || 3000
 
 var app=express();
 
@@ -16,5 +17,7 @@ app.get('/technique',function(req,res){
     res.render('technique')
 })
 
-app.listen(3000);
-console.log('you are listen to port 3000');
+app.listen(port,function(){
+    console.log('you are listen to port 3000');
+});
+ 
