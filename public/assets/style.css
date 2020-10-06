@@ -1,0 +1,27 @@
+            
+            .centered {
+                position: absolute;
+                top: 5%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+              }
+              h2{
+                  color:red;
+                  text-shadow:2px 2px 5px;
+                  font-size: 45px;
+              }
+              .center{
+                  position:absolute;
+                  top:15%;
+              }
+              
+              .cen{
+                  position: absolute;
+                top: 10%;
+                left: 47%;
+              }     
+              a{
+                  font-size:6mm;
+                  color:rgb(23, 231, 23);
+                  text-decoration:none;
+              }   
